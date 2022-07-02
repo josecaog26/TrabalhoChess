@@ -1,0 +1,423 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'es' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jcarl/Desktop/Carlos/Ajedrez/Chess
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55566
+Successfully changed project path to: C:/Users/jcarl/Desktop/Carlos/Ajedrez/Chess
+C:/Users/jcarl/Desktop/Carlos/Ajedrez/Chess
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jcarl/Desktop/Carlos/Ajedrez/Chess/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8170 MB
+    Driver:   30.0.15021.1001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003364 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (660ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (503ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (183ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006076 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1120ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1935.
+Total: 3.247900 ms (FindLiveObjects: 0.183900 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.905300 ms  DeleteObjects: 0.118800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/CaballoBlanco.fbx
+  artifactKey: Guid(bf9abda87a3dfa74680533c074f61a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CaballoBlanco.fbx using Guid(bf9abda87a3dfa74680533c074f61a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc08c4e98a8a230524529cfa7f8f6e6') in 0.903733 seconds 
+  Import took 0.908886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.446137 seconds.
+  path: Assets/PeonBlanco.fbx
+  artifactKey: Guid(0cff72db7f9d3344cb4fcc98c90e7c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PeonBlanco.fbx using Guid(0cff72db7f9d3344cb4fcc98c90e7c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b920f20c43cc66ad17a77403386675') in 0.336099 seconds 
+  Import took 0.339392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.833815 seconds.
+  path: Assets/TorreBlanco.fbx
+  artifactKey: Guid(f5442e1a521a2d347ab6a37f288d2ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TorreBlanco.fbx using Guid(f5442e1a521a2d347ab6a37f288d2ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21526a4c687ff8792a70bf51401a8c3c') in 0.028201 seconds 
+  Import took 0.031727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.185810 seconds.
+  path: Assets/fondo-textura-madera-color-marron-fondo-pantalla-diseno_314149-610.jpg
+  artifactKey: Guid(8823fe1136ffbe0449471f878f90e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fondo-textura-madera-color-marron-fondo-pantalla-diseno_314149-610.jpg using Guid(8823fe1136ffbe0449471f878f90e9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18df0df34c2c85979b7ef90749193c2') in 0.022809 seconds 
+  Import took 0.025776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/pngtree-wood-light-wood-textured-background-image_906338.png
+  artifactKey: Guid(c87d80967e1c79c40a86497f9740a4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pngtree-wood-light-wood-textured-background-image_906338.png using Guid(c87d80967e1c79c40a86497f9740a4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc55c3567357a9ba2c84b20f3433382') in 0.012679 seconds 
+  Import took 0.015144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/TorreBlanco.fbx
+  artifactKey: Guid(f5442e1a521a2d347ab6a37f288d2ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TorreBlanco.fbx using Guid(f5442e1a521a2d347ab6a37f288d2ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cf9228ffebf9abccce3e910ec13e2e') in 0.021118 seconds 
+  Import took 0.023717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.200524 seconds.
+  path: Assets/Alfil.fbx
+  artifactKey: Guid(3d11350676f3bf349bcd0951a635ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alfil.fbx using Guid(3d11350676f3bf349bcd0951a635ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de6fcead472bcf78df64be0dd13ab22') in 0.024208 seconds 
+  Import took 0.026861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Caballo.fbx
+  artifactKey: Guid(c69d719e0a721f040a7ea6fba641981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caballo.fbx using Guid(c69d719e0a721f040a7ea6fba641981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7ea867398c8ec8e3a12cb563874d7a') in 0.022599 seconds 
+  Import took 0.025391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Peon.fbx
+  artifactKey: Guid(7e0f31f0891f0864588ca000bfe3e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Peon.fbx using Guid(7e0f31f0891f0864588ca000bfe3e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48806bae722763044ac9a03389a724d5') in 0.022981 seconds 
+  Import took 0.025281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Rey.fbx
+  artifactKey: Guid(54b8321b10438ae4f8de81f47b70f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rey.fbx using Guid(54b8321b10438ae4f8de81f47b70f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194e9b4db4570715267b4b6ea8aff9bd') in 0.022300 seconds 
+  Import took 0.024699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tablero.fbx
+  artifactKey: Guid(11cd912fec5cfcc49aae953dfd1c2f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tablero.fbx using Guid(11cd912fec5cfcc49aae953dfd1c2f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54b8ec4beed8c7f6b8731110900add') in 0.038983 seconds 
+  Import took 0.042021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Torre.fbx
+  artifactKey: Guid(23364e87bee902945b7a2197cee78ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Torre.fbx using Guid(23364e87bee902945b7a2197cee78ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2657dc392bafc607dce6c0163074dcfb') in 0.023724 seconds 
+  Import took 0.026904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Reina.fbx
+  artifactKey: Guid(2e6b014e67d065e46ad7f09fe3f65000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reina.fbx using Guid(2e6b014e67d065e46ad7f09fe3f65000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca55c4a0dfbee5aa3b57a87332ad243') in 0.025885 seconds 
+  Import took 0.028809 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 2.894800 ms (FindLiveObjects: 0.161200 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.677800 ms  DeleteObjects: 0.015300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 191.961556 seconds.
+  path: Assets/Torrea.fbx
+  artifactKey: Guid(63174215145a3e74cb5912d4e3b066ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Torrea.fbx using Guid(63174215145a3e74cb5912d4e3b066ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774b9cd67952d55025f598e415368e4f') in 0.098928 seconds 
+  Import took 0.102140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.019969 seconds.
+  path: Assets/Caballo.fbx
+  artifactKey: Guid(c69d719e0a721f040a7ea6fba641981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caballo.fbx using Guid(c69d719e0a721f040a7ea6fba641981b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5916db5281eef31fafef5e38930695ad') in 0.025785 seconds 
+  Import took 0.028879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.392891 seconds.
+  path: Assets/Alfil.fbx
+  artifactKey: Guid(3d11350676f3bf349bcd0951a635ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alfil.fbx using Guid(3d11350676f3bf349bcd0951a635ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dafbc8c0374f4c92af2a05d77197b41') in 0.027224 seconds 
+  Import took 0.029882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.660381 seconds.
+  path: Assets/Alfila.fbx
+  artifactKey: Guid(0f88cb6bf31c8ab42888ee93a3fe9a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alfila.fbx using Guid(0f88cb6bf31c8ab42888ee93a3fe9a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff8f289e731be9047f3aad3018823ca') in 0.029262 seconds 
+  Import took 0.032368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.409886 seconds.
+  path: Assets/Alfil 1.fbx
+  artifactKey: Guid(1532fb221ae8fb54f844eea74ae257b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alfil 1.fbx using Guid(1532fb221ae8fb54f844eea74ae257b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfadf7826e9b6cd19c77a42eb767ec2') in 0.029322 seconds 
+  Import took 0.031960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Peon.fbx
+  artifactKey: Guid(7e0f31f0891f0864588ca000bfe3e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Peon.fbx using Guid(7e0f31f0891f0864588ca000bfe3e30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d0c8fe4686a3abec6d89d52c270241') in 0.026801 seconds 
+  Import took 0.029130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Alfila 1.fbx
+  artifactKey: Guid(0742dfb3264524c469a260ca537de6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alfila 1.fbx using Guid(0742dfb3264524c469a260ca537de6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c8a0bc8a1041491d78300927637c80') in 0.023080 seconds 
+  Import took 0.025761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Caballo 1.fbx
+  artifactKey: Guid(d67f018b08c42174aaca58700930aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Caballo 1.fbx using Guid(d67f018b08c42174aaca58700930aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0306932960d6f7c30da881b27056a55e') in 0.024348 seconds 
+  Import took 0.026577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.217794 seconds.
+  path: Assets/Reina.fbx
+  artifactKey: Guid(2e6b014e67d065e46ad7f09fe3f65000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reina.fbx using Guid(2e6b014e67d065e46ad7f09fe3f65000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f46d3eeef3ce299062ce5e18322080') in 0.028183 seconds 
+  Import took 0.030815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Rey.fbx
+  artifactKey: Guid(54b8321b10438ae4f8de81f47b70f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rey.fbx using Guid(54b8321b10438ae4f8de81f47b70f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befdbc7e71fb0be6d32b9c3f11a03cd6') in 0.031241 seconds 
+  Import took 0.033733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Torre.fbx
+  artifactKey: Guid(23364e87bee902945b7a2197cee78ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Torre.fbx using Guid(23364e87bee902945b7a2197cee78ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3938db37cd41fda67844d2c252448838') in 0.022101 seconds 
+  Import took 0.024942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.830050 seconds.
+  path: Assets/Rey.fbx
+  artifactKey: Guid(54b8321b10438ae4f8de81f47b70f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rey.fbx using Guid(54b8321b10438ae4f8de81f47b70f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c837b069f6eaf0fb8de552e1669027') in 0.025638 seconds 
+  Import took 0.028228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 313.324999 seconds.
+  path: Assets/Rey.fbx
+  artifactKey: Guid(54b8321b10438ae4f8de81f47b70f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rey.fbx using Guid(54b8321b10438ae4f8de81f47b70f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492d175825e0dfdf7ab6390c3b1393be') in 0.025895 seconds 
+  Import took 0.028572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 319.212553 seconds.
+  path: Assets/Alfil 1.fbx
+  artifactKey: Guid(1532fb221ae8fb54f844eea74ae257b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alfil 1.fbx using Guid(1532fb221ae8fb54f844eea74ae257b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba50b4922dff6391518d081ec6db14a') in 0.027438 seconds 
+  Import took 0.061298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.382151 seconds.
+  path: Assets/Rey 1.fbx
+  artifactKey: Guid(f3344d566d6d8a6419274f0e5da2c02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rey 1.fbx using Guid(f3344d566d6d8a6419274f0e5da2c02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f7ff657dff49a614af2968c923e616') in 0.032632 seconds 
+  Import took 0.035297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.817123 seconds.
+  path: Assets/Alfil.fbx
+  artifactKey: Guid(3d11350676f3bf349bcd0951a635ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alfil.fbx using Guid(3d11350676f3bf349bcd0951a635ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808ef39e2cc745561b66250cbed35fdf') in 0.028817 seconds 
+  Import took 0.031677 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
